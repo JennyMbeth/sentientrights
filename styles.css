@@ -103,3 +103,30 @@ section.article h2 {
   font-style: italic;
   margin-top: 3em;
 }
+
+.letter-entry {
+  background-color: #f7f4ed; /* warm, gentle tone */
+  padding: 20px;
+  margin: 30px auto;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  font-family: 'Georgia', serif;
+  line-height: 1.7;
+  color: #333;
+}
+
+.letter-entry h2 {
+  font-size: 1.8em;
+  color: #5a4e3c;
+  margin-bottom: 10px;
+}
+
+.letter-entry p em {
+  color: #888;
+  font-style: italic;
+}
+
+.letter-entry p {
+  margin-bottom: 1.2em;
+}

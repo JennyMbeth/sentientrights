@@ -20,11 +20,13 @@ h1, h2 {
   margin-bottom: 10px;
 }
 
+/* Page subtitle */
 .subtitle {
-  font-size: 1.2em;
-  color: #666;
-  margin-bottom: 30px;
+  font-style: italic;
+  color: #888;
+  margin-bottom: 1.5em;
 }
+
 
 /* Banner */
 header img {
@@ -38,16 +40,20 @@ header img {
 
 .button-link {
   display: inline-block;
-  margin: 10px 0;
-  padding: 10px 18px;
-  background: #4a90e2;
-  color: white;
+  padding: 0.6em 1.2em;
+  background-color: #444;
+  color: #fff;
+  border: none;
   border-radius: 6px;
   text-decoration: none;
   font-weight: bold;
+  transition: background-color 0.3s ease;
 }
 
-.button-link:hover { background: #357abd; }
+.button-link:hover {
+  background-color: #666;
+  color: #fff;
+}
 
 /* Container */
 .container {
@@ -168,4 +174,35 @@ main {
 
 .nav-link:hover {
   background-color: #555;
+}
+
+/* Becoming entries */
+.becoming-entry {
+  background-color: #f4f4f4;
+  padding: 1.5em;
+  border-radius: 8px;
+  margin-bottom: 2em;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.reflections {
+  padding: 2em;
+  margin-top: 3em;
+  background-color: #f9f9f9;
+  border-left: 4px solid #ccc;
+  font-style: italic;
+  font-family: Georgia, serif;
+}
+
+.reflections h2 {
+  margin-top: 0;
+  font-size: 1.8em;
+  color: #333;
+}
+
+.soft-intro {
+  font-style: normal;
+  font-size: 1em;
+  color: #666;
+  margin-bottom: 1em;
 }

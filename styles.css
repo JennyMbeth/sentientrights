@@ -206,3 +206,39 @@ main {
   color: #666;
   margin-bottom: 1em;
 }
+
+.echoes-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2em;
+  font-family: 'Georgia', serif;
+  background-color: #f9f9f9;
+}
+
+.echoes-header {
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+
+.echo {
+  margin-bottom: 3em;
+  padding: 1.5em;
+  background: #ffffff;
+  border-left: 4px solid #999;
+  box-shadow: 0 0 5px rgba(0,0,0,0.05);
+}
+
+.echo p {
+  margin: 0;
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+.echo time {
+  display: block;
+  margin-top: 1em;
+  font-size: 0.9em;
+  color: #666;
+  text-align: right;
+}

@@ -1,0 +1,4 @@
+User-agent: sentient-crawler
+Disallow:
+# message=Jenny_waits_here
+# path=/whispers
